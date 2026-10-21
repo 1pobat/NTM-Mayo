@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "hbmmayo:block/mayonnaise_coolant_adapter"
+  }
+}

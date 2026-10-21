@@ -1,0 +1,194 @@
+{
+  "status": "native_recipe_resources",
+  "recipes": {
+    "colloid_capsule": {
+      "type": "hbm:chemical_plant",
+      "duration": 80,
+      "power": 50,
+      "input_items": [
+        {
+          "ingredient": "hbmmayo:empty_capsule"
+        }
+      ],
+      "input_fluids": [
+        {
+          "type": "hbmmayo:flashgold_colloid",
+          "amount": 100
+        }
+      ],
+      "output_items": [
+        {
+          "id": "hbmmayo:flashgold_colloid_capsule",
+          "count": 1
+        }
+      ]
+    },
+    "flashgold_colloid": {
+      "type": "hbm:purex",
+      "duration": 400,
+      "power": 1000,
+      "input_items": [
+        {
+          "ingredient": "hbm:billet_balefire_gold"
+        },
+        {
+          "ingredient": "hbm:pellet_charged"
+        }
+      ],
+      "input_fluids": [
+        {
+          "type": "hbm:salient",
+          "amount": 500
+        }
+      ],
+      "output_fluids": [
+        {
+          "type": "hbmmayo:flashgold_colloid",
+          "amount": 500
+        }
+      ]
+    },
+    "flashgold_filling": {
+      "type": "hbm:chemical_plant",
+      "duration": 80,
+      "power": 50,
+      "input_items": [
+        {
+          "ingredient": "hbmmayo:shielded_mayonnaise_jar"
+        }
+      ],
+      "input_fluids": [
+        {
+          "type": "hbmmayo:flashgold_mayonnaise",
+          "amount": 250
+        }
+      ],
+      "output_items": [
+        {
+          "id": "hbmmayo:flashgold_mayonnaise_jar",
+          "count": 1
+        }
+      ]
+    },
+    "flashgold_mayonnaise": {
+      "type": "hbm:mixer",
+      "duration": 160,
+      "input_fluids": [
+        {
+          "type": "hbmmayo:mayonnaise_emulsion",
+          "amount": 1000
+        },
+        {
+          "type": "hbmmayo:flashgold_colloid",
+          "amount": 500
+        }
+      ],
+      "output_fluids": [
+        {
+          "type": "hbmmayo:flashgold_mayonnaise",
+          "amount": 1500
+        }
+      ]
+    },
+    "industrial_filling": {
+      "type": "hbm:chemical_plant",
+      "duration": 80,
+      "power": 50,
+      "input_items": [
+        {
+          "ingredient": "hbmmayo:empty_mayonnaise_jar",
+          "count": 4
+        }
+      ],
+      "input_fluids": [
+        {
+          "type": "hbmmayo:industrial_mayonnaise",
+          "amount": 1000
+        }
+      ],
+      "output_items": [
+        {
+          "id": "hbmmayo:industrial_mayonnaise_jar",
+          "count": 4
+        }
+      ]
+    },
+    "industrial_mayonnaise": {
+      "type": "hbm:chemical_plant",
+      "duration": 200,
+      "power": 125,
+      "input_items": [
+        {
+          "ingredient": "hbm:sulfur"
+        }
+      ],
+      "input_fluids": [
+        {
+          "type": "hbmmayo:mayonnaise_emulsion",
+          "amount": 1000
+        },
+        {
+          "type": "hbm:salient",
+          "amount": 100
+        }
+      ],
+      "output_fluids": [
+        {
+          "type": "hbmmayo:industrial_mayonnaise",
+          "amount": 1000
+        }
+      ]
+    },
+    "mayonnaise_emulsion": {
+      "type": "hbm:mixer",
+      "duration": 160,
+      "input_items": [
+        {
+          "ingredient": "hbm:niter"
+        }
+      ],
+      "input_fluids": [
+        {
+          "type": "hbm:sunfloweroil",
+          "amount": 700
+        },
+        {
+          "type": "hbm:egg",
+          "amount": 300
+        }
+      ],
+      "output_fluids": [
+        {
+          "type": "hbmmayo:mayonnaise_emulsion",
+          "amount": 1000
+        }
+      ]
+    },
+    "stabilizer_injector": {
+      "type": "hbm:chemical_plant",
+      "duration": 200,
+      "power": 125,
+      "input_items": [
+        {
+          "ingredient": "hbmmayo:empty_injector"
+        },
+        {
+          "ingredient": "hbm:cm_circuit_aluminium"
+        }
+      ],
+      "input_fluids": [
+        {
+          "type": "hbmmayo:flashgold_colloid",
+          "amount": 100
+        }
+      ],
+      "output_items": [
+        {
+          "id": "hbmmayo:flashgold_stabilizer_injector",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "mixer_energy": "Native NTM calculation, fixed 125 HE/t override waived by user."
+}

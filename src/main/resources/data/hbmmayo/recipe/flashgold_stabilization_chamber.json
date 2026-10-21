@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "EFE",
+    "SMS"
+  ],
+  "key": {
+    "S": "hbm:plate_steel",
+    "A": "hbm:cm_circuit_red_copper",
+    "E": "hbm:battery_pack_capacitor_copper",
+    "F": "hbmmayo:flashgold_colloid_capsule",
+    "M": "hbmmayo:machine_frame"
+  },
+  "result": {
+    "id": "hbmmayo:flashgold_stabilization_chamber",
+    "count": 1
+  }
+}

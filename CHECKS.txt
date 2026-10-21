@@ -1,0 +1,19 @@
+Local verification status, 2026-10-21
+
+PASS original ntmjar/ntm-next.jar: 63534692 bytes, ZIP CRC valid, 6441 classes.
+PASS Implementation-Version: 1.0.3+1b8c6c2d.
+PASS SHA256: 923a0a2bea1deded10a71cc7273cb687d728b27fe1c2ba06774150f09c28a273
+PASS installed JDK 25.0.5 and Gradle Wrapper 9.2.1; Gradle distribution cached.
+PASS python3 tools/check_core.py: 1792 core assertions on Java 21 and Java 25.
+PASS python3 tools/check_resources.py: 17 recipes, 58 JSON, 44 PNG.
+PASS Java syntax parse: 29 main-source files (not a type/API check).
+PASS original annihilation audio: Vorbis, mono, 44100 Hz.
+
+BLOCKED full Gradle build at :createMinecraftArtifacts:
+net.neoforged:neoform-runtime:2.0.31 missing from local cache;
+maven.neoforged.net returns proxy HTTP 403 with current network policy.
+Current managed policy revision 11: custom allowed_hosts is empty.
+NOT RUN full game-source compilation, mixin application, Minecraft client/server.
+NOT RUN in-game acceptance scenarios; see ACCEPTANCE.md.
+NOT RUN GitHub Actions workflow; definition is prepared in .github/workflows/build.yml.
+NO INSTALLABLE MOD JAR PRODUCED. See STATUS.md for remaining release checks.

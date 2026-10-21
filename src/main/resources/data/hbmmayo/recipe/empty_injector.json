@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass_pane",
+    "minecraft:iron_nugget",
+    "hbm:plate_steel"
+  ],
+  "result": {
+    "id": "hbmmayo:empty_injector",
+    "count": 1
+  }
+}

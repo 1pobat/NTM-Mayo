@@ -1,0 +1,23 @@
+{
+  "file": "ntmjar/ntm-next.jar",
+  "bytes": 63534692,
+  "sha256": "923a0a2bea1deded10a71cc7273cb687d728b27fe1c2ba06774150f09c28a273",
+  "implementation_version": "1.0.3+1b8c6c2d",
+  "classes": 6441,
+  "minecraft": "26.2",
+  "compatible_neoforge_range": "[26.2.0.7-beta,26.3)",
+  "target_neoforge": "26.2.0.89",
+  "client_dependency": "crankshaft >= 1.6.0+mc26.2",
+  "native_ids": {
+    "sunflower_seed_oil": "hbm:sunfloweroil",
+    "dissolved_egg": "hbm:egg",
+    "salient_green": "hbm:salient",
+    "flashgold_billet": "hbm:billet_balefire_gold",
+    "ionized_particles": "hbm:pellet_charged",
+    "electricity_connector": "hbm:red_connector",
+    "circuit": "hbm:cm_circuit_aluminium",
+    "advanced_circuit": "hbm:cm_circuit_red_copper",
+    "gold_wire": "hbm:wire_fine_gold",
+    "energy_component": "hbm:battery_pack_capacitor_copper"
+  }
+}

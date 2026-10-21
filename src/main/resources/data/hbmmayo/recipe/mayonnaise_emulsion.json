@@ -1,0 +1,25 @@
+{
+  "type": "hbm:mixer",
+  "duration": 160,
+  "input_items": [
+    {
+      "ingredient": "hbm:niter"
+    }
+  ],
+  "input_fluids": [
+    {
+      "type": "hbm:sunfloweroil",
+      "amount": 700
+    },
+    {
+      "type": "hbm:egg",
+      "amount": 300
+    }
+  ],
+  "output_fluids": [
+    {
+      "type": "hbmmayo:mayonnaise_emulsion",
+      "amount": 1000
+    }
+  ]
+}

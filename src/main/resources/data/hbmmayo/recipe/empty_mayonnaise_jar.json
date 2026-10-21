@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass_pane",
+    "minecraft:glass_pane",
+    "minecraft:glass_pane",
+    "minecraft:iron_nugget"
+  ],
+  "result": {
+    "id": "hbmmayo:empty_mayonnaise_jar",
+    "count": 1
+  }
+}

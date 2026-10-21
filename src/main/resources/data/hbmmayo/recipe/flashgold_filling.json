@@ -1,0 +1,22 @@
+{
+  "type": "hbm:chemical_plant",
+  "duration": 80,
+  "power": 50,
+  "input_items": [
+    {
+      "ingredient": "hbmmayo:shielded_mayonnaise_jar"
+    }
+  ],
+  "input_fluids": [
+    {
+      "type": "hbmmayo:flashgold_mayonnaise",
+      "amount": 250
+    }
+  ],
+  "output_items": [
+    {
+      "id": "hbmmayo:flashgold_mayonnaise_jar",
+      "count": 1
+    }
+  ]
+}

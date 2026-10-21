@@ -1,0 +1,25 @@
+{
+  "type": "hbm:chemical_plant",
+  "duration": 200,
+  "power": 125,
+  "input_items": [
+    {
+      "ingredient": "hbmmayo:empty_injector"
+    },
+    {
+      "ingredient": "hbm:cm_circuit_aluminium"
+    }
+  ],
+  "input_fluids": [
+    {
+      "type": "hbmmayo:flashgold_colloid",
+      "amount": 100
+    }
+  ],
+  "output_items": [
+    {
+      "id": "hbmmayo:flashgold_stabilizer_injector",
+      "count": 1
+    }
+  ]
+}

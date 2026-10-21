@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "GFG",
+    "SES"
+  ],
+  "key": {
+    "S": "hbm:plate_steel",
+    "C": "hbm:cm_circuit_aluminium",
+    "G": "hbm:wire_fine_gold",
+    "F": "hbmmayo:flashgold_colloid_capsule",
+    "E": "hbm:red_connector"
+  },
+  "result": {
+    "id": "hbmmayo:passive_flashgold_stabilizer",
+    "count": 1
+  }
+}

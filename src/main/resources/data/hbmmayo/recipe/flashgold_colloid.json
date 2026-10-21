@@ -1,0 +1,25 @@
+{
+  "type": "hbm:purex",
+  "duration": 400,
+  "power": 1000,
+  "input_items": [
+    {
+      "ingredient": "hbm:billet_balefire_gold"
+    },
+    {
+      "ingredient": "hbm:pellet_charged"
+    }
+  ],
+  "input_fluids": [
+    {
+      "type": "hbm:salient",
+      "amount": 500
+    }
+  ],
+  "output_fluids": [
+    {
+      "type": "hbmmayo:flashgold_colloid",
+      "amount": 500
+    }
+  ]
+}

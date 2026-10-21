@@ -1,0 +1,144 @@
+{
+  "entropy_reclaimer": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "TAT",
+      "GFG",
+      "TET"
+    ],
+    "key": {
+      "T": "hbm:plate_titanium",
+      "A": "hbm:cm_circuit_red_copper",
+      "G": "hbm:wire_fine_gold",
+      "F": "hbmmayo:flashgold_colloid_capsule",
+      "E": "hbm:red_connector"
+    },
+    "result": {
+      "id": "hbmmayo:entropy_reclaimer",
+      "count": 1
+    }
+  },
+  "shielded_mayonnaise_jar": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "hbmmayo:empty_mayonnaise_jar",
+      "hbm:plate_lead",
+      "hbm:plate_lead",
+      "hbm:plate_steel"
+    ],
+    "result": {
+      "id": "hbmmayo:shielded_mayonnaise_jar",
+      "count": 1
+    }
+  },
+  "mayonnaise_coolant_adapter": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SCS",
+      "PMP",
+      "SFS"
+    ],
+    "key": {
+      "S": "hbm:plate_steel",
+      "C": "hbm:cm_circuit_aluminium",
+      "P": "hbm:plate_lead",
+      "M": "hbmmayo:machine_frame",
+      "F": "hbmmayo:empty_mayonnaise_jar"
+    },
+    "result": {
+      "id": "hbmmayo:mayonnaise_coolant_adapter",
+      "count": 1
+    }
+  },
+  "machine_frame": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " S ",
+      "SIS",
+      " S "
+    ],
+    "key": {
+      "S": "hbm:plate_steel",
+      "I": "minecraft:iron_block"
+    },
+    "result": {
+      "id": "hbmmayo:machine_frame",
+      "count": 1
+    }
+  },
+  "empty_capsule": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      "hbm:plate_steel"
+    ],
+    "result": {
+      "id": "hbmmayo:empty_capsule",
+      "count": 1
+    }
+  },
+  "passive_flashgold_stabilizer": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SCS",
+      "GFG",
+      "SES"
+    ],
+    "key": {
+      "S": "hbm:plate_steel",
+      "C": "hbm:cm_circuit_aluminium",
+      "G": "hbm:wire_fine_gold",
+      "F": "hbmmayo:flashgold_colloid_capsule",
+      "E": "hbm:red_connector"
+    },
+    "result": {
+      "id": "hbmmayo:passive_flashgold_stabilizer",
+      "count": 1
+    }
+  },
+  "empty_mayonnaise_jar": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      "minecraft:glass_pane",
+      "minecraft:iron_nugget"
+    ],
+    "result": {
+      "id": "hbmmayo:empty_mayonnaise_jar",
+      "count": 1
+    }
+  },
+  "empty_injector": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "minecraft:glass_pane",
+      "minecraft:iron_nugget",
+      "hbm:plate_steel"
+    ],
+    "result": {
+      "id": "hbmmayo:empty_injector",
+      "count": 1
+    }
+  },
+  "flashgold_stabilization_chamber": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SAS",
+      "EFE",
+      "SMS"
+    ],
+    "key": {
+      "S": "hbm:plate_steel",
+      "A": "hbm:cm_circuit_red_copper",
+      "E": "hbm:battery_pack_capacitor_copper",
+      "F": "hbmmayo:flashgold_colloid_capsule",
+      "M": "hbmmayo:machine_frame"
+    },
+    "result": {
+      "id": "hbmmayo:flashgold_stabilization_chamber",
+      "count": 1
+    }
+  }
+}

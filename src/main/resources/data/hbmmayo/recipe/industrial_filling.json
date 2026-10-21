@@ -1,0 +1,23 @@
+{
+  "type": "hbm:chemical_plant",
+  "duration": 80,
+  "power": 50,
+  "input_items": [
+    {
+      "ingredient": "hbmmayo:empty_mayonnaise_jar",
+      "count": 4
+    }
+  ],
+  "input_fluids": [
+    {
+      "type": "hbmmayo:industrial_mayonnaise",
+      "amount": 1000
+    }
+  ],
+  "output_items": [
+    {
+      "id": "hbmmayo:industrial_mayonnaise_jar",
+      "count": 4
+    }
+  ]
+}

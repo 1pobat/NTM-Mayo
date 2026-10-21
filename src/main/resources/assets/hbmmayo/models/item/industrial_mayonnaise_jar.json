@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hbmmayo:item/industrial_mayonnaise_jar"
+  }
+}

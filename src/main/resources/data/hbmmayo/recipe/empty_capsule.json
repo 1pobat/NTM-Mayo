@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass_pane",
+    "minecraft:glass_pane",
+    "hbm:plate_steel"
+  ],
+  "result": {
+    "id": "hbmmayo:empty_capsule",
+    "count": 1
+  }
+}

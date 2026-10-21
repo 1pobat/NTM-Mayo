@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.hbmmayo.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "DamageThresholdMixin",
+    "LivingDamageMixin",
+    "ArmorRevivalMixin",
+    "TurbineLubricantMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,5 @@
+.gradle/
+build/
+run/
+ntmjar/*.jar
+__pycache__/

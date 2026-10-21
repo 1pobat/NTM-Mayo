@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "PMP",
+    "SFS"
+  ],
+  "key": {
+    "S": "hbm:plate_steel",
+    "C": "hbm:cm_circuit_aluminium",
+    "P": "hbm:plate_lead",
+    "M": "hbmmayo:machine_frame",
+    "F": "hbmmayo:empty_mayonnaise_jar"
+  },
+  "result": {
+    "id": "hbmmayo:mayonnaise_coolant_adapter",
+    "count": 1
+  }
+}

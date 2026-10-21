@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[0,)"
+license="MIT"
+[[mods]]
+modId="hbmmayo"
+version="0.1.0-dev"
+displayName="HBM Mayonnaise Addon"
+description="Industrial and experimental mayonnaise for NTM NEXT. Independent addon."
+[[dependencies.hbmmayo]]
+modId="minecraft"
+type="required"
+versionRange="[26.2,26.3)"
+side="BOTH"
+[[dependencies.hbmmayo]]
+modId="neoforge"
+type="required"
+versionRange="[26.2.0.89,26.3)"
+side="BOTH"
+[[dependencies.hbmmayo]]
+modId="hbm"
+type="required"
+versionRange="[1.0.3,1.0.4)"
+ordering="AFTER"
+side="BOTH"
+[[mixins]]
+config="hbmmayo.mixins.json"

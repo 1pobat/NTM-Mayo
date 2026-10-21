@@ -1,0 +1,26 @@
+{
+  "type": "hbm:chemical_plant",
+  "duration": 200,
+  "power": 125,
+  "input_items": [
+    {
+      "ingredient": "hbm:sulfur"
+    }
+  ],
+  "input_fluids": [
+    {
+      "type": "hbmmayo:mayonnaise_emulsion",
+      "amount": 1000
+    },
+    {
+      "type": "hbm:salient",
+      "amount": 100
+    }
+  ],
+  "output_fluids": [
+    {
+      "type": "hbmmayo:industrial_mayonnaise",
+      "amount": 1000
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbmmayo:empty_mayonnaise_jar",
+    "hbm:plate_lead",
+    "hbm:plate_lead",
+    "hbm:plate_steel"
+  ],
+  "result": {
+    "id": "hbmmayo:shielded_mayonnaise_jar",
+    "count": 1
+  }
+}

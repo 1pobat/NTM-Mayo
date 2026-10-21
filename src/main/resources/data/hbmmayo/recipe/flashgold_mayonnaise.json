@@ -1,0 +1,20 @@
+{
+  "type": "hbm:mixer",
+  "duration": 160,
+  "input_fluids": [
+    {
+      "type": "hbmmayo:mayonnaise_emulsion",
+      "amount": 1000
+    },
+    {
+      "type": "hbmmayo:flashgold_colloid",
+      "amount": 500
+    }
+  ],
+  "output_fluids": [
+    {
+      "type": "hbmmayo:flashgold_mayonnaise",
+      "amount": 1500
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "hbm:chemical_plant",
+  "duration": 80,
+  "power": 50,
+  "input_items": [
+    {
+      "ingredient": "hbmmayo:empty_capsule"
+    }
+  ],
+  "input_fluids": [
+    {
+      "type": "hbmmayo:flashgold_colloid",
+      "amount": 100
+    }
+  ],
+  "output_items": [
+    {
+      "id": "hbmmayo:flashgold_colloid_capsule",
+      "count": 1
+    }
+  ]
+}

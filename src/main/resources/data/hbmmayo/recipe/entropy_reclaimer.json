@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TAT",
+    "GFG",
+    "TET"
+  ],
+  "key": {
+    "T": "hbm:plate_titanium",
+    "A": "hbm:cm_circuit_red_copper",
+    "G": "hbm:wire_fine_gold",
+    "F": "hbmmayo:flashgold_colloid_capsule",
+    "E": "hbm:red_connector"
+  },
+  "result": {
+    "id": "hbmmayo:entropy_reclaimer",
+    "count": 1
+  }
+}
