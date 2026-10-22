@@ -1,0 +1,328 @@
+Picked up JAVA_TOOL_OPTIONS: -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080 -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :verifyNtm
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :downloadAssets
+Picked up JAVA_TOOL_OPTIONS: -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080 -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts
+Loaded 137 artifacts from /workspace/work/NTM-Mayo-java25/build/tmp/downloadAssets/nfrt_artifact_manifest.properties
+Downloading asset index 32
+Using Minecraft asset root: /workspace/work/gradle-home-proxy/caches/neoformruntime/assets
+  ↓ https://piston-meta.mojang.com/v1/packages/d7b16b1133c9b47a173f3a780cafda615b80d059/32.json
+100/5057 downloads
+200/5057 downloads
+300/5057 downloads
+400/5057 downloads
+500/5057 downloads
+600/5057 downloads
+700/5057 downloads
+800/5057 downloads
+900/5057 downloads
+1000/5057 downloads
+1100/5057 downloads
+1200/5057 downloads
+1300/5057 downloads
+1400/5057 downloads
+1500/5057 downloads
+1600/5057 downloads
+1700/5057 downloads
+1800/5057 downloads
+1900/5057 downloads
+2000/5057 downloads
+2100/5057 downloads
+2200/5057 downloads
+2300/5057 downloads
+2400/5057 downloads
+2500/5057 downloads
+2600/5057 downloads
+2700/5057 downloads
+2800/5057 downloads
+2900/5057 downloads
+3000/5057 downloads
+3100/5057 downloads
+3200/5057 downloads
+3300/5057 downloads
+3400/5057 downloads
+3500/5057 downloads
+3600/5057 downloads
+3700/5057 downloads
+3800/5057 downloads
+3900/5057 downloads
+4000/5057 downloads
+4100/5057 downloads
+4200/5057 downloads
+4300/5057 downloads
+4400/5057 downloads
+4500/5057 downloads
+4600/5057 downloads
+4700/5057 downloads
+4800/5057 downloads
+4900/5057 downloads
+5000/5057 downloads
+Downloaded 5057 files with a total size of 459 MiB
+
+> Task :prepareServerRun
+
+> Task :runServer
+Picked up JAVA_TOOL_OPTIONS: -Dhttp.proxyHost=proxy -Dhttp.proxyPort=8080 -Dhttps.proxyHost=proxy -Dhttps.proxyPort=8080 -Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts
+WARNING: Using incubator modules: jdk.incubator.vector
+2026-10-22T08:55:33.884916946Z main WARN Advanced terminal features are not available in this environment
+[08:55:34] [main/INFO] [ne.ne.fm.st.Entrypoint/]: JVM Uptime at startup: 126ms
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]: Starting FancyModLoader version 11.0.16 (DEDICATED_SERVER in DEV)
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]: Game directory: /workspace/work/NTM-Mayo-java25/run
+[08:55:34] [main/INFO] [ne.ne.fm.lo.EarlyServiceDiscovery/]: Found 2 early service jars (out of 101) in 19ms
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]: Loading FML Early Services:
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]:  - /workspace/work/gradle-home-proxy/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/11.0.16/42d3bfead0ba3aa89c7d45ac29115defc9967219/loader-11.0.16.jar
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]:  - /workspace/work/gradle-home-proxy/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/11.0.16/2d357375a7ea94a1ca86042d48fa4f719a552894/earlydisplay-11.0.16.jar
+[08:55:34] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[08:55:34] [main/INFO] [ne.ne.fm.lo.mo.lo.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[08:55:34] [main/INFO] [ne.ne.fm.lo.mo.lo.InDevFolderLocator/CORE]: Got mod coordinates hbmmayo%%/workspace/work/NTM-Mayo-java25/build/classes/java/main:hbmmayo%%/workspace/work/NTM-Mayo-java25/build/resources/main from env
+[08:55:34] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[08:55:34] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		HBM Mayonnaise Addon 0.1.0-dev (hbmmayo)
+		Minecraft 26.2 (minecraft)
+		NeoForge 26.2.0.89 (neoforge)
+		NTM 1.0.3+1b8c6c2d (hbm)
+[08:55:34] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspace/work/gradle-home-proxy/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/41c4a3984a80f4679e759fb9f495587acc5cdac7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=FML Env=SERVER
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]: Loading FML Plugins:
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]:  - /workspace/work/gradle-home-proxy/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.89/84a77274453fbfc417c62b1132caf8a695e23108/neoforge-26.2.0.89-universal.jar > net.neoforged.neoforge-coremods-26.2.0.89.jar
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]: Building game content classloader:
+ - hbm (jar(/workspace/work/NTM-Mayo-java25/ntmjar/ntm-next.jar))
+ - hbmmayo (composite(folder(/workspace/work/NTM-Mayo-java25/build/classes/java/main), folder(/workspace/work/NTM-Mayo-java25/build/resources/main)))
+ - minecraft (composite(filtered(jar(/workspace/work/NTM-Mayo-java25/build/moddev/artifacts/minecraft-patched-26.2.0.89.jar)), filtered(jar(/workspace/work/NTM-Mayo-java25/build/moddev/artifacts/minecraft-patched-26.2.0.89.jar))))
+ - mixinextras.neoforge (jar(/workspace/work/gradle-home-proxy/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.89/84a77274453fbfc417c62b1132caf8a695e23108/neoforge-26.2.0.89-universal.jar > mixinextras-neoforge-0.5.4.jar))
+ - neoforge (composite(filtered(jar(/workspace/work/gradle-home-proxy/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.89/84a77274453fbfc417c62b1132caf8a695e23108/neoforge-26.2.0.89-universal.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+[08:55:34] [main/INFO] [ne.ne.fm.lo.FMLLoader/]: Built game content classloader in 24ms
+[08:55:34] [main/INFO] [mixin/]: Compatibility level set to JAVA_25
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/tom/storagemod/block/entity/FilingCabinetBlockEntity (java.lang.ClassNotFoundException: com.tom.storagemod.block.entity.FilingCabinetBlockEntity)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.tom.storagemod.block.entity.FilingCabinetBlockEntity was not found hbm-common.mixins.json:storage.MixinFilingCabinetBlockEntity from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/tom/storagemod/util/FilingCabinetContainer (java.lang.ClassNotFoundException: com.tom.storagemod.util.FilingCabinetContainer)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.tom.storagemod.util.FilingCabinetContainer was not found hbm-common.mixins.json:storage.MixinFilingCabinetContainer from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/jaquadro/minecraft/storagedrawers/block/tile/BlockEntityDrawersStandard (java.lang.ClassNotFoundException: com.jaquadro.minecraft.storagedrawers.block.tile.BlockEntityDrawersStandard)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.jaquadro.minecraft.storagedrawers.block.tile.BlockEntityDrawersStandard was not found hbm-common.mixins.json:storage.MixinBlockEntityDrawersStandard from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/jaquadro/minecraft/storagedrawers/block/tile/tiledata/StandardDrawerGroup$DrawerData (java.lang.ClassNotFoundException: com.jaquadro.minecraft.storagedrawers.block.tile.tiledata.StandardDrawerGroup$DrawerData)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.jaquadro.minecraft.storagedrawers.block.tile.tiledata.StandardDrawerGroup$DrawerData was not found hbm-common.mixins.json:storage.MixinDrawerData from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/jaquadro/minecraft/storagedrawers/block/tile/tiledata/UpgradeData (java.lang.ClassNotFoundException: com.jaquadro.minecraft.storagedrawers.block.tile.tiledata.UpgradeData)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.jaquadro.minecraft.storagedrawers.block.tile.tiledata.UpgradeData was not found hbm-common.mixins.json:storage.MixinUpgradeData from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/jaquadro/minecraft/storagedrawers/block/tile/BlockEntityDrawers (java.lang.ClassNotFoundException: com.jaquadro.minecraft.storagedrawers.block.tile.BlockEntityDrawers)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.jaquadro.minecraft.storagedrawers.block.tile.BlockEntityDrawers was not found hbm-common.mixins.json:storage.MixinBlockEntityDrawers from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/tom/storagemod/block/entity/CraftingTerminalBlockEntity (java.lang.ClassNotFoundException: com.tom.storagemod.block.entity.CraftingTerminalBlockEntity)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.tom.storagemod.block.entity.CraftingTerminalBlockEntity was not found hbm-common.mixins.json:storage.MixinCraftingTerminalBlockEntity from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: ca/spottedleaf/starlight/common/light/vanillainterface/ThreadedLevelLightEngineVanillaInterface (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.light.vanillainterface.ThreadedLevelLightEngineVanillaInterface)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target ca.spottedleaf.starlight.common.light.vanillainterface.ThreadedLevelLightEngineVanillaInterface was not found hbm-common.mixins.json:scalablelux.MixinThreadedLevelLightEngineVanillaInterface from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: ca/spottedleaf/starlight/common/light/StarLightInterface (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.light.StarLightInterface)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target ca.spottedleaf.starlight.common.light.StarLightInterface was not found hbm-common.mixins.json:scalablelux.MixinStarLightInterface from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: ca/spottedleaf/starlight/common/light/StarLightInterface$ConcurrentLightQueue (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.light.StarLightInterface$ConcurrentLightQueue)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target ca.spottedleaf.starlight.common.light.StarLightInterface$ConcurrentLightQueue was not found hbm-common.mixins.json:scalablelux.MixinConcurrentLightQueue from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: ca/spottedleaf/starlight/common/light/StarLightInterface$SimpleLightQueue (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.light.StarLightInterface$SimpleLightQueue)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target ca.spottedleaf.starlight.common.light.StarLightInterface$SimpleLightQueue was not found hbm-common.mixins.json:scalablelux.MixinSimpleLightQueue from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: me/shedaniel/rei/plugin/common/displays/crafting/DefaultCraftingDisplay (java.lang.ClassNotFoundException: me.shedaniel.rei.plugin.common.displays.crafting.DefaultCraftingDisplay)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target me.shedaniel.rei.plugin.common.displays.crafting.DefaultCraftingDisplay was not found hbm-common.mixins.json:rei.MixinDefaultCraftingDisplay from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/tom/storagemod/util/CraftingMatrix (java.lang.ClassNotFoundException: com.tom.storagemod.util.CraftingMatrix)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.tom.storagemod.util.CraftingMatrix was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/witchica/compactstorage/block/entity/base/BaseCompactStorageBlockEntity (java.lang.ClassNotFoundException: com.witchica.compactstorage.block.entity.base.BaseCompactStorageBlockEntity)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.witchica.compactstorage.block.entity.base.BaseCompactStorageBlockEntity was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: com/witchica/compactstorage/block/entity/base/BaseItemDrumBlockEntity (java.lang.ClassNotFoundException: com.witchica.compactstorage.block.entity.base.BaseItemDrumBlockEntity)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target com.witchica.compactstorage.block.entity.base.BaseItemDrumBlockEntity was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: techreborn/blockentity/storage/item/StorageUnitBaseBlockEntity$1 (java.lang.ClassNotFoundException: techreborn.blockentity.storage.item.StorageUnitBaseBlockEntity$1)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target techreborn.blockentity.storage.item.StorageUnitBaseBlockEntity$1 was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: appeng/util/inv/CombinedInternalInventory (java.lang.ClassNotFoundException: appeng.util.inv.CombinedInternalInventory)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target appeng.util.inv.CombinedInternalInventory was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: appeng/helpers/patternprovider/PatternProviderReturnInventory (java.lang.ClassNotFoundException: appeng.helpers.patternprovider.PatternProviderReturnInventory)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target appeng.helpers.patternprovider.PatternProviderReturnInventory was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: appeng/parts/CableBusContainer (java.lang.ClassNotFoundException: appeng.parts.CableBusContainer)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target appeng.parts.CableBusContainer was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedcore/inventory/ContainerContents$InventoryData (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedcore.inventory.ContainerContents$InventoryData)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedcore.inventory.ContainerContents$InventoryData was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:35] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedcore/inventory/ContainerContents$UpgradeData (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedcore.inventory.ContainerContents$UpgradeData)
+[08:55:35] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedcore.inventory.ContainerContents$UpgradeData was not found hbm-common.mixins.json:MixinStorageTargets from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: com/PinkCats/bandwidthoptimizer/channel/algorithm/zstd/KineticStreamingLayer (java.lang.ClassNotFoundException: com.PinkCats.bandwidthoptimizer.channel.algorithm.zstd.KineticStreamingLayer)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target com.PinkCats.bandwidthoptimizer.channel.algorithm.zstd.KineticStreamingLayer was not found hbm-network-optimizer.mixins.json:bo.MixinKineticStreamingLayer from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: com/PinkCats/bandwidthoptimizer/integration/minecraft/CustomPayloadPacketCompat (java.lang.ClassNotFoundException: com.PinkCats.bandwidthoptimizer.integration.minecraft.CustomPayloadPacketCompat)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target com.PinkCats.bandwidthoptimizer.integration.minecraft.CustomPayloadPacketCompat was not found hbm-network-optimizer.mixins.json:bo.MixinCustomPayloadPacketCompat from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: com/PinkCats/bandwidthoptimizer/report/ChannelTransportPacketRankSourceResolver (java.lang.ClassNotFoundException: com.PinkCats.bandwidthoptimizer.report.ChannelTransportPacketRankSourceResolver)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target com.PinkCats.bandwidthoptimizer.report.ChannelTransportPacketRankSourceResolver was not found hbm-network-optimizer.mixins.json:bo.MixinChannelTransportPacketRankSourceResolver from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: cn/ussshenzhou/notenoughbandwidth/aggregation/AggregatedEncodePacket (java.lang.ClassNotFoundException: cn.ussshenzhou.notenoughbandwidth.aggregation.AggregatedEncodePacket)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target cn.ussshenzhou.notenoughbandwidth.aggregation.AggregatedEncodePacket was not found hbm-network-optimizer.mixins.json:neb.MixinAggregatedEncodePacket from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: cn/ussshenzhou/notenoughbandwidth/indextype/NamespaceIndexManager (java.lang.ClassNotFoundException: cn.ussshenzhou.notenoughbandwidth.indextype.NamespaceIndexManager)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target cn.ussshenzhou.notenoughbandwidth.indextype.NamespaceIndexManager was not found hbm-network-optimizer.mixins.json:neb.MixinNamespaceIndexManager from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: cn/ussshenzhou/notenoughbandwidth/zstd/Context (java.lang.ClassNotFoundException: cn.ussshenzhou.notenoughbandwidth.zstd.Context)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target cn.ussshenzhou.notenoughbandwidth.zstd.Context was not found hbm-network-optimizer.mixins.json:neb.MixinContext from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: cn/ussshenzhou/notenoughbandwidth/zstd/ZstdHelper (java.lang.ClassNotFoundException: cn.ussshenzhou.notenoughbandwidth.zstd.ZstdHelper)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target cn.ussshenzhou.notenoughbandwidth.zstd.ZstdHelper was not found hbm-network-optimizer.mixins.json:neb.MixinZstdHelper from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: cn/ussshenzhou/notenoughbandwidth/aggregation/PacketAggregationPacket (java.lang.ClassNotFoundException: cn.ussshenzhou.notenoughbandwidth.aggregation.PacketAggregationPacket)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target cn.ussshenzhou.notenoughbandwidth.aggregation.PacketAggregationPacket was not found hbm-network-optimizer.mixins.json:neb.MixinPacketAggregationPacket from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/crafting/execution/CraftingCpuLogic (java.lang.ClassNotFoundException: appeng.crafting.execution.CraftingCpuLogic)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.crafting.execution.CraftingCpuLogic was not found hbm-neoforge.mixins.json:storage.MixinCraftingCpuLogic from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/me/cluster/implementations/CraftingCPUCluster (java.lang.ClassNotFoundException: appeng.me.cluster.implementations.CraftingCPUCluster)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.me.cluster.implementations.CraftingCPUCluster was not found hbm-neoforge.mixins.json:storage.MixinCraftingCPUCluster from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/blockentity/crafting/CraftingBlockEntity (java.lang.ClassNotFoundException: appeng.blockentity.crafting.CraftingBlockEntity)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.blockentity.crafting.CraftingBlockEntity was not found hbm-neoforge.mixins.json:storage.MixinCraftingBlockEntity from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/me/cells/BasicCellInventory (java.lang.ClassNotFoundException: appeng.me.cells.BasicCellInventory)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.me.cells.BasicCellInventory was not found hbm-neoforge.mixins.json:storage.MixinBasicCellInventory from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/debug/ItemGenBlockEntity (java.lang.ClassNotFoundException: appeng.debug.ItemGenBlockEntity)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.debug.ItemGenBlockEntity was not found hbm-neoforge.mixins.json:storage.MixinItemGenBlockEntity from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/blockentity/AEBaseBlockEntity (java.lang.ClassNotFoundException: appeng.blockentity.AEBaseBlockEntity)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.blockentity.AEBaseBlockEntity was not found hbm-neoforge.mixins.json:storage.MixinAEBaseBlockEntity from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/util/inv/AppEngInternalInventory (java.lang.ClassNotFoundException: appeng.util.inv.AppEngInternalInventory)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.util.inv.AppEngInternalInventory was not found hbm-neoforge.mixins.json:storage.MixinAppEngInternalInventory from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/blockentity/inventory/AppEngCellInventory (java.lang.ClassNotFoundException: appeng.blockentity.inventory.AppEngCellInventory)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.blockentity.inventory.AppEngCellInventory was not found hbm-neoforge.mixins.json:storage.MixinAppEngCellInventory from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/helpers/externalstorage/GenericStackInv (java.lang.ClassNotFoundException: appeng.helpers.externalstorage.GenericStackInv)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.helpers.externalstorage.GenericStackInv was not found hbm-neoforge.mixins.json:storage.MixinGenericStackInv from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/helpers/patternprovider/PatternProviderLogic (java.lang.ClassNotFoundException: appeng.helpers.patternprovider.PatternProviderLogic)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.helpers.patternprovider.PatternProviderLogic was not found hbm-neoforge.mixins.json:storage.MixinPatternProviderLogic from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/me/storage/NetworkStorage (java.lang.ClassNotFoundException: appeng.me.storage.NetworkStorage)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.me.storage.NetworkStorage was not found hbm-neoforge.mixins.json:ae2.MixinNetworkStorage from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/me/storage/MEInventoryHandler (java.lang.ClassNotFoundException: appeng.me.storage.MEInventoryHandler)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.me.storage.MEInventoryHandler was not found hbm-neoforge.mixins.json:ae2.MixinMEInventoryHandler from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/api/stacks/KeyCounter (java.lang.ClassNotFoundException: appeng.api.stacks.KeyCounter)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.api.stacks.KeyCounter was not found hbm-neoforge.mixins.json:ae2.MixinKeyCounter from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: appeng/me/storage/CompositeStorage$InventoryCache (java.lang.ClassNotFoundException: appeng.me.storage.CompositeStorage$InventoryCache)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target appeng.me.storage.CompositeStorage$InventoryCache was not found hbm-neoforge.mixins.json:ae2.MixinInventoryCache from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedcore/inventory/InventoryHandler (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedcore.inventory.InventoryHandler)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedcore.inventory.InventoryHandler was not found hbm-neoforge.mixins.json:storage.MixinInventoryHandler from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedstorage/block/StorageBlockEntity (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedstorage.block.StorageBlockEntity)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedstorage.block.StorageBlockEntity was not found hbm-neoforge.mixins.json:storage.MixinStorageBlockEntity from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedbackpacks/backpack/BackpackBlockEntity (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackBlockEntity)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackBlockEntity was not found hbm-neoforge.mixins.json:storage.MixinBackpackBlockEntity from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedcore/upgrades/UpgradeHandler (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedcore.upgrades.UpgradeHandler)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedcore.upgrades.UpgradeHandler was not found hbm-neoforge.mixins.json:storage.MixinUpgradeHandler from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedbackpacks/backpack/BackpackStorage (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackStorage)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedbackpacks.backpack.BackpackStorage was not found hbm-neoforge.mixins.json:storage.MixinBackpackStorage from mod hbm
+[08:55:36] [main/WARN] [mixin/]: Error loading class: net/p3pp3rf1y/sophisticatedstorage/block/ItemContentsStorage (java.lang.ClassNotFoundException: net.p3pp3rf1y.sophisticatedstorage.block.ItemContentsStorage)
+[08:55:36] [main/WARN] [mixin/]: @Mixin target net.p3pp3rf1y.sophisticatedstorage.block.ItemContentsStorage was not found hbm-neoforge.mixins.json:storage.MixinItemContentsStorage from mod hbm
+[08:55:36] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [time, set, time] and [time, set, timemarker] with inputs: [0, 0s, 0d, 0t]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [time, set, timemarker] and [time, set, time] with inputs: [012]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [time, of, clock, set, time] and [time, of, clock, set, timemarker] with inputs: [0, 0s, 0d, 0t]
+[08:55:43] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [time, of, clock, set, timemarker] and [time, of, clock, set, time] with inputs: [012]
+[08:55:43] [modloading-worker-0/INFO] [NTM/]: NTM common init on NeoForge
+[08:55:43] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 26.2.0.89, for MC 26.2
+[08:55:46] [main/ERROR] [minecraft/Settings]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?] {}
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?] {}
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?] {}
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?] {}
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244) ~[?:?] {}
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357) ~[?:?] {}
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399) ~[?:?] {}
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:371) ~[?:?] {}
+	at java.base/java.nio.file.Files.newInputStream(Files.java:154) ~[?:?] {}
+	at TRANSFORMER/minecraft@26.2/net.minecraft.server.dedicated.Settings.loadFromFile(Settings.java:36) [minecraft-patched-26.2.0.89.jar:?] {}
+	at TRANSFORMER/minecraft@26.2/net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:158) [minecraft-patched-26.2.0.89.jar:?] {}
+	at TRANSFORMER/minecraft@26.2/net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12) [minecraft-patched-26.2.0.89.jar:?] {}
+	at TRANSFORMER/minecraft@26.2/net.minecraft.server.Main.main(Main.java:118) [minecraft-patched-26.2.0.89.jar:?] {}
+	at net.neoforged.fml.startup.Server.main(Server.java:19) [loader-11.0.16.jar:11.0] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?] {}
+[08:55:46] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:55:47] [Yggdrasil Key Fetcher/ERROR] [mojang/YggdrasilServicesKeyInfo]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readServiceResponse(MinecraftClient.java:151) ~[authlib-9.0.75.jar:?] {}
+	at com.mojang.authlib.minecraft.client.MinecraftClient.getWithEtag(MinecraftClient.java:81) ~[authlib-9.0.75.jar:?] {}
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:65) ~[authlib-9.0.75.jar:?] {}
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) [authlib-9.0.75.jar:?] {}
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) [authlib-9.0.75.jar:?] {}
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) [?:?] {}
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328) [?:?] {}
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:309) [?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) [?:?] {}
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) [?:?] {}
+	at java.base/java.lang.Thread.run(Thread.java:1474) [?:?] {}
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:569) ~[?:?] {}
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:307) ~[?:?] {}
+	at java.base/java.net.Socket.connect(Socket.java:659) ~[?:?] {}
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?] {}
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:161) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:524) ~[?:?] {}
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:612) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:206) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:288) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:196) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1011) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:902) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:875) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:181) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1379) ~[?:?] {}
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1305) ~[?:?] {}
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:493) ~[?:?] {}
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?] {}
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readServiceResponse(MinecraftClient.java:130) ~[authlib-9.0.75.jar:?] {}
+	... 10 more
+[08:55:50] [Worker-Main-1/INFO] [minecraft/Main]: No existing world data, creating new world
+[08:55:53] [main/INFO] [minecraft/RecipeManager]: Loaded 7549 recipes
+[08:55:53] [main/INFO] [minecraft/AdvancementTree]: Loaded 1750 advancements
+[08:55:53] [main/INFO] [ne.ne.ne.co.cr.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[08:55:54] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 26.2
+[08:55:54] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[08:55:54] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[08:55:54] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[08:55:54] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on *:25565
+[08:55:54] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:55:54] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[08:55:54] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:55:54] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:55:54] [Server thread/INFO] [NTM/]: [RadiationSystemNT] 16 constant-source rules, 55 states resolved
+[08:55:54] [Server thread/INFO] [NTM/]: [RadiationSystemNT] 0 resistance rules, 0 added states
+[08:55:54] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[08:55:54] [Server thread/INFO] [minecraft/LoggingLevelLoadListener]: Selecting global world spawn...
+[08:56:02] [worldgen/INFO] [NTM/]: Vector API resolved
+[08:56:02] [worldgen/INFO] [NTM/]: Vector backend C2 on Java HotSpot(TM) 64-Bit Server VM 25.0.5.0.2+1-LTS-2
+[08:56:02] [Server thread/INFO] [minecraft/LoggingLevelLoadListener]: Loading 0 persistent chunks...
+[08:56:02] [Server thread/INFO] [minecraft/LoggingLevelLoadListener]: Preparing spawn area: 100%
+[08:56:02] [Server thread/INFO] [minecraft/LoggingLevelLoadListener]: Time elapsed: 7838 ms
+[08:56:02] [Server thread/INFO] [minecraft/DedicatedServer]: Done (8.360s)! For help, type "help"
+[08:56:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:56:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:56:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:56:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:56:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:56:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:56:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:56:02] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:56:32] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:56:32] [main/INFO] [ne.ne.fm.lo.FMLLoader/]: Closing FML Loader 7b0343f0
+[08:56:32] [main/INFO] [ne.ne.fm.ModLoader/]: Clearing ModLoader
+
+> Task :runServer FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runServer'.
+> Process 'command '/workspace/toolchains/jdk-25.0.5.0.2/bin/java'' finished with non-zero exit value 143
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 53s
+7 actionable tasks: 4 executed, 3 up-to-date

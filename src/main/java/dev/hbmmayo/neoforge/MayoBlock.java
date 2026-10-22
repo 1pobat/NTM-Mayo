@@ -27,8 +27,8 @@ public final class MayoBlock extends Block implements EntityBlock,ICapabilityBlo
     }
     @Override protected InteractionResult useWithoutItem(BlockState state,Level level,BlockPos pos,Player user,BlockHitResult hit) {
         if(!level.isClientSide() && level.getBlockEntity(pos) instanceof MayoBlockEntity machine) {
-            if(user.isSecondaryUseActive()) user.displayClientMessage(Component.translatable(
-                "message.hbmmayo.machine_status",machine.getPower(),machine.coolantAmount(),machine.serviceTicks()),false);
+            if(user.isSecondaryUseActive()) user.sendSystemMessage(Component.translatable(
+                "message.hbmmayo.machine_status",machine.getPower(),machine.coolantAmount(),machine.serviceTicks()));
             else user.openMenu(machine);
         }
         return InteractionResult.SUCCESS;

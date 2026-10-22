@@ -45,6 +45,9 @@ val coreChecks by tasks.registering(JavaExec::class) {
     mainClass = "dev.hbmmayo.core.CoreChecks"
 }
 tasks.check { dependsOn(coreChecks) }
+// These test sources are exercised by the standalone CoreChecks runner above.
+// There are no JUnit/TestNG test classes for Gradle's default test runner.
+tasks.test { failOnNoDiscoveredTests = false }
 
 val verifyNtm by tasks.registering {
     inputs.file(ntmJar)
